@@ -1,0 +1,53 @@
+
+*{
+    color: white;
+}
+body {
+    background-color: rgb(40, 40, 40);
+}
+nav {
+    background-color: rgb(80, 80, 80);
+}
+button{
+    background-color: rgb(255, 55, 55);
+    border-radius: 25px;
+    color: white;
+}
+nav > button {
+    border-radius: 0px;
+    background-color: #b8860b;
+}
+.post {
+    background-color: rgb(255, 255, 255, .15);
+    width: 700px;
+}
+.tag {
+    font-size:large;
+    color: #b8860b;
+}
+span {
+    color:rgb(200, 200, 200)
+}
+span > a{
+    color: rgb(255, 55, 55);
+}
+button:hover {
+    background-color:  rgb(168, 40, 40);
+}
+h2::first-letter{
+    font-size: 40px;
+}
+#post::first-line{
+    color: #b8860b;
+}
+*::selection{
+    background-color:#b8860b;
+}
+ul::before{
+    content: "Hello";
+    color: #b8860b;
+}
+ul::after{
+    content: "Goodbye";
+    color: #b8860b;
+}

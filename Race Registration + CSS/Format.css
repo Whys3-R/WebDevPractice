@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+/* Universal  */
+* {
+    color: white;
+}
+#register {
+    background-color: #b8860b;
+}

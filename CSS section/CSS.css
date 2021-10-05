@@ -1,0 +1,25 @@
+body{
+    background-color:rgb(77, 77, 77);
+}
+h1 {
+    color: #B8860B;
+    text-decoration: red underline;
+    text-align: center;
+    font-weight: 600;
+    font-size: 72;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+    color: white;
+    background-color: rgb(143, 143, 143);
+    text-align: center;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    line-height: 1.5;
+}
+
+/* Univrsal selectot */
+* {
+
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Example HTML</h1>
+
+    <h2>FORMS</h2>
+    <form action="/Account">
+        <label for="Username">Enter Username: </label>
+        <input id="Username" type="text" placeholder="Username">
+        <p>
+            <label for="Password">Enter Password: </label>
+            <input id="Password" type="password" placeholder="Password">
+        </p>
+        <p>
+            <label for="Human">Are you human?</label>
+            <input type="checkbox" name="Human" id="Human">
+        </p>
+        <p>
+            <label for="Age">Enter your Age: </label>
+            <input type="number" name="age" id="age" min="0" max="150">
+        </p>
+        <p>
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Male" value="Male">
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Female" value="Female">
+            <label for="Other">Other</label>
+            <input type="radio" name="Gender" id="Other" value="Other">
+        </p>
+        <p>
+            <label for="Race">Please select your race</label>
+            <select name="Race" id="Race">
+                <option value="White">White</option>
+                <option value="Black">Black or African American</option>
+                <option value="Indian">American Indian or Alaska Native</option>
+                <option value="Asian">Asian</option>
+                <option value="Oceanic">Oceanic</option>
+            </select>
+        </p>
+        <button>Submit</button>
+    </form>
+
+    <p>
+        <label for="req">Do you have any additional requests?</label>
+        <br>
+        <textarea name="req" id="req" rows="3" placeholder="Enter your request"></textarea>
+    </p>
+
+    
+    <h2>Using Searches</h2>
+    <h3>Search Google</h3>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+
+    <h3>Search YouTube</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search YouTube</button>
+    </form>
+    
+
+    <h2>Validation</h2>
+    <form action="/mock">
+        <p>
+            <label for="f_name">Enter First Name: </label>
+            <input type="text" name="f_name" id="f_name" placeholder="First Name" required>
+        </p>
+        <p>
+            <label for="l_name">Enter Last Name: </label>
+            <input type="text" name="l_name" id="l_name" placeholder="Last Name" required>
+        </p>
+        <p>
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username" minlength="5" required>
+        </p>
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="John.Smith123@xxxxx.com">
+        </p>
+        <button>Submit</button>
+    </form>
+
+    
+</body>
+</html>

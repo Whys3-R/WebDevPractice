@@ -1,0 +1,31 @@
+@font-face{
+    font-family: hyperlegible;
+    src: url(font/Hyperlegible-Bold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+html, body {
+    align-items: center;
+    text-align: center;
+}
+nav {
+    font-family: hyperlegible;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    position: sticky;
+    padding-top: .25em;
+    top: 0px;
+    background-color: white;
+    /* width: 30%; */
+    margin: 0 auto;
+    border-bottom: solid rgb(44, 44, 44, 0.3);
+}
+div{
+    align-items: center;
+}  
+img {
+    /* display: inline-block; */
+    width: 30%;
+    margin: 1.5%;
+}
